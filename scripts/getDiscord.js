@@ -27,6 +27,10 @@ async function getDiscord() {
         element.addEventListener('click', (e) => {
           e.preventDefault();
         })
+        const icon = element.tagName === 'IMG' ? element : element.querySelector('img');
+        if (icon) {
+          icon.src = 'images/symbols/discord_grey.svg';
+        }
         element.classList.remove("hover:text-fvt-orange")
         element.classList.remove("hover:bg-orange-950")
         element.classList.add("text-neutral-500")
