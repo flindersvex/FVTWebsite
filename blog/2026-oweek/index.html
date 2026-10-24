@@ -22,6 +22,24 @@
 
   <script src="/scripts/out.js" type="module"></script>
 
+  <script src=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js "></script>
+  <link href=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css " rel="stylesheet">
+  <script>
+    document.addEventListener( 'DOMContentLoaded', function() {
+      let splide = new Splide( '.splide', {
+        height   : '20rem',
+        rewind  : true,
+        focus    : 'center',
+        autoWidth : true,
+        pagination:  true,
+        perPage  : 3,
+        perMove  : 1,
+        gap      : '1rem',
+        } );
+      splide.mount();
+    } );
+  </script>
+
   <title>2026 O'Week - Flinders VEX Robotics Team</title>
   <meta name="description"
     content="Flinders VEX Team (FVT) is a VEX U Robotics Competition team from South Australia. Currently, FVT is the only VEX U team in SA." />
@@ -97,7 +115,40 @@
             </span>
         </section>
 
-        <!-- Contribution. If anonymous, leave as this, otherwise  -->
+        <!-- Gallery scroller -->
+        <section class="splide w-full max-w-[60em]">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img class="h-full object-contain border-dashed border-neutral-500" onerror="this.classList.add('border','p-4','items-center','flex','justify-center')" 
+                        src="./media/city-chatting-1.jpg" alt="A club member chatting to a group of students, one holding a club flyer">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="h-full object-contain border-dashed border-neutral-500" onerror="this.classList.add('border','p-4','items-center','flex','justify-center')" 
+                        src="./media/bedford-nucleus-1.jpeg" alt="A group of students standing over the robotics field, with the club banner on the left"></li>
+                    <li class="splide__slide">
+                        <img class="h-full object-contain border-dashed border-neutral-500" onerror="this.classList.add('border','p-4','items-center','flex','justify-center')"
+                        src="./media/bedford-nucleus-2.jpeg" alt="A table with lots of club flyers, stickers, game objects, and a laptop showing the robot CAD"></li>
+                    <li class="splide__slide">
+                        <img class="h-full object-contain border-dashed border-neutral-500" onerror="this.classList.add('border','p-4','items-center','flex','justify-center')" 
+                        src="./media/bedford-nucleus-3.jpeg" alt="Another group of students standing over the robotics field"></li>
+                    <li class="splide__slide">
+                        <img class="h-full object-contain border-dashed border-neutral-500" onerror="this.classList.add('border','p-4','items-center','flex','justify-center')" 
+                        src="./media/tonsley-driving-2.jpg" alt="Club members showing attendees how to drive the robots"></li>
+                    <li class="splide__slide">
+                        <img class="h-full object-contain border-dashed border-neutral-500" onerror="this.classList.add('border','p-4','items-center','flex','justify-center')" 
+                        src="./media/lab-robots-2.jpeg" alt="The three showcase robots lined up in the Tonsley lab"></li>
+                    <li class="splide__slide">
+                        <img class="h-full object-contain border-dashed border-neutral-500" onerror="this.classList.add('border','p-4','items-center','flex','justify-center')" 
+                        src="./media/city-stall-2.jpg" alt="Close up of the club competition robot"></li>
+                    <li class="splide__slide">
+                        <img class="h-full object-contain border-dashed border-neutral-500" onerror="this.classList.add('border','p-4','items-center','flex','justify-center')" 
+                        src="./media/tonsley-driving-1.jpg" alt="Photo of a club member and attendee chatting and driving the robots"></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contribution. If anonymous, leave as this, otherwise edit to appropriate photo and text as needed -->
         <section class="bg-neutral-900 border-fvt-orange border-2 p-8 py-4 lg:p-8 rounded-xl flex flex-col lg:flex-row gap-2 lg:gap-8 items-center text-center lg:text-left">
             <span class="w-15 aspect-square bg-neutral-800 rounded-[100%] flex items-center justify-center">
                 <!-- Feather icon: https://icon-sets.iconify.design streamline-plump:feather-pen-solid-->
