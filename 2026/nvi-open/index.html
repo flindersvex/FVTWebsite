@@ -27,7 +27,7 @@
   <script>
     document.addEventListener( 'DOMContentLoaded', function() {
       let splide = new Splide( '.splide', {
-        height   : '20rem',
+        height   : '24rem',
         rewind  : true,
         focus    : 'center',
         autoWidth : true,
@@ -66,7 +66,7 @@
 
 <body class="bg-neutral-950 text-neutral-50 font-[figtree] selection:bg-fvt-orange selection:text-neutral-900">
     <header class="absolute top-0 left-0 right-0 overflow-hidden z-0">
-        <img src="./media/PeterNVIOpen - 3.png" alt="A small crowd of O'Week attendees standing next to a VEX Robotics game field." class="w-full h-[30em] object-cover opacity-35">
+        <img src="./media/PeterNVIOpen - 3.avif" alt="A small crowd of O'Week attendees standing next to a VEX Robotics game field." class="w-full h-[30em] object-cover opacity-35">
         <div class="absolute bottom-0 left-0 right-0 h-[50%] bg-linear-to-t from-neutral-950 to-transparent z-10"></div>
     </header>
 
@@ -88,52 +88,121 @@
         <section class="max-w-[40em] w-full text-neutral-300 text-lg flex flex-col gap-4 text-justify">
             <!-- A brief introduction to O'Week 2026 -->
             <p>
-            Ipsum magna ipsum in labore tempor mollit. Cillum est reprehenderit non irure officia laboris duis do eiusmod incididunt enim in. Fugiat sunt tempor ea eu incididunt velit in laboris exercitation aliquip. Magna anim ut voluptate quis minim aliquip ea commodo.
+                <!-- The Flinders NVI Open brought together VEX V5 Robotics Competition teams from across South Australia for one of the first VEX events of the 2026-27 season. Teams went head-to-head in matches running all day, with the top teams advancing to the elimination rounds.-->
+                In July, the Flinders VEX Robotics Team hosted their largest event yet, the Flinders NVI Open 2026! This high-school VEX Robotics competition supported by the City of Marion brought together 13 teams from eight South Australian schools for a day of innovation, teamwork, and friendly competition. 
             </p>
+            <p>
+                With over 100 students, mentors, spectators, and volunteers in attendance, the event was both a resounding success, and the <i>first qualifying VEX Robotics event in the world</i> for the 2026-27 season.
+                Across 36 Skills attempts, 23 Qualifiers and 5 Elminiation matches, students battled it out across the day to see who would take home the trophies.
+            </p>
+            <p>
+                The event showcased the growing strength of school robotics programs across the state, with teams representing Pembroke School, Salisbury East High School, Pedare Christian College, Woodcroft College, University Senior College, Investigator College, Prince Alfred College and Gawler & District College B-12.                
+            </p>
+        </section>
+
+         <!-- Text left img right -->
+        <section class="text-neutral-300 text-lg flex gap-6 flex-col-reverse lg:flex-row w-full lg:max-w-[60em] lg:w-[60em] max-w-[40em] items-center justify-center text-justify">
+            <div class="lg:w-1/2 w-full">
+               <img class="h-80 w-full z-0 object-cover  border-dashed rounded-xl border-neutral-500" onerror="this.classList.add('border','p-4','items-center','flex','justify-center')" 
+                src="./media/PeterNVIOpen - 8.avif" alt="">
+            </div>
+            <div class="lg:w-1/2 w-full">
+                <img class="h-80 w-full z-0 object-cover  border-dashed rounded-xl border-neutral-500" onerror="this.classList.add('border','p-4','items-center','flex','justify-center')" 
+                 src="./media/PeterNVIOpen - 11.avif" alt="">
+            </div>
         </section>
         
         <!-- Text left img right -->
-        <section class="text-neutral-300 text-lg flex gap-6 flex-col-reverse lg:flex-row w-full lg:max-w-[60em] max-w-[40em] items-center justify-center text-justify ">
+        <section class="text-neutral-300 text-lg flex gap-6 flex-col lg:flex-col w-full lg:max-w-[60em] items-center justify-center text-justify">
+            <p class="max-w-[40em]">
+                The tournament was won by the alliance of Invictus (52111A) from Investigator College and Woodcroft 4 (81321D) from Woodcroft College, who defeated the alliance of ASDF (41103X) and 1/3 (41103C) from Pedare Christian College in the Grand Final. 
+            </p>
+            <p class="max-w-[40em]">
+                Invictus also delivered an outstanding all-round performance, finishing first in the Skills Challenge with the highest Driver Skills score (68), highest Programming Skills score (18), and highest combined Skills score (86). 
+            </p>
+            <p class="max-w-[40em]">
+                The competition produced exciting gameplay throughout the day, culminating in a tournament-high score of 186 points during the final qualification round. The full match results can be found <a href="https://events.vex.com/robot-competitions/vex-robotics-competition/RE-V5RC-26-4409.html" target="_blank" class="text-fvt-orange hover:text-fvt-white underline">on the VEX Events website</a>.
+            </p>
+            <div class="splide w-full max-w-[60em]">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="splide__slide__container flex flex-col gap-1">
+                                <img class="h-80 z-0 object-cover  border-dashed rounded-xl border-neutral-500" onerror="this.classList.add('border','p-4','items-center','flex','justify-center')" 
+                                src="./media/Photowall-2.avif" alt="">
+                                <p class="text-center text-sm">Investigator College - Invictus (52111A)</p>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="splide__slide__container text-center">
+                                <img class="h-80 object-contain border-dashed rounded-xl border-neutral-500" onerror="this.classList.add('border','p-4','items-center','flex','justify-center')" 
+                                src="./media/Photowall-3.avif" alt="">
+                                <p class="text-center text-sm">Investigator College - Invictus (52111A)<br>Woodcroft College - SML (81321D)</p>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <img class="h-80 object-contain border-dashed rounded-xl border-neutral-500" onerror="this.classList.add('border','p-4','items-center','flex','justify-center')" 
+                            src="./media/Photowall-4.avif" alt="">
+                            <p class="text-center text-sm">Pembroke College - Flamingos (12223F)<br>Pembroke College - DisKoalified (12223X)</p>
+                        </li>
+                        <li class="splide__slide">
+                            <img class="h-80 object-contain border-dashed rounded-xl border-neutral-500" onerror="this.classList.add('border','p-4','items-center','flex','justify-center')" 
+                            src="./media/Photowall-5.avif" alt="">
+                            <p class="text-center text-sm">Pedare Christian College - ASDF (41103X)<br>Pedare Christian College - 1/3 (41103C)</p>
+                        </li>
+                        <li class="splide__slide">
+                            <img class="h-80 object-contain border-dashed rounded-xl border-neutral-500" onerror="this.classList.add('border','p-4','items-center','flex','justify-center')" 
+                            src="./media/Photowall-7.avif" alt="">
+                            <p class="text-center text-sm">Woodcroft College - SML (81321D)<br>Woodcroft College - AWESOM-0 (81321C)</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!-- City of Marion -->
+        <section class="text-neutral-300 text-lg flex gap-6 flex-col-reverse lg:flex-row-reverse w-full lg:max-w-[60em] max-w-[40em] items-center justify-center text-justify">
             <p>
-                Sint veniam proident eu cillum adipisicing excepteur fugiat tempor deserunt ad elit magna. In laborum aliquip adipisicing nulla. Incididunt tempor non minim non culpa nulla sunt consequat minim eu adipisicing et nostrud. Esse ad anim occaecat irure nostrud excepteur laboris veniam eu. Ea ut laborum sunt pariatur.
-                <br><br>
-                Amet ullamco ad sunt irure deserunt esse velit consequat enim ipsum. Eiusmod eiusmod culpa exercitation ea dolor. Duis aliqua culpa labore anim nisi ex minim tempor enim tempor aliquip ut.
+                The Flinders NVI Open 2026 was proudly supported by the City of Marion council, who provided funding and resources through their Community Event Fund to help make the day a success. Their community event grants are intended to support not-for-profits (which FVT proudly is) to deliver events that benefit the community, and the Flinders NVI Open was a perfect example of this. 
+
+                You can learn more about the City of Marion's work and their community event grants <a href="https://www.marion.sa.gov.au/services-we-offer/grants" target="_blank" class="text-fvt-orange hover:text-fvt-white underline">on their website</a>.
             </p>
             <span>
-                <img src="./media/tonsley-driving-3.jpg" alt="" class="w-full md:w-auto max-w-[30em] rounded-xl ">
-                <p class="text-sm text-neutral-500 mt-2 lg:text-right text-center">Photo courtesy of <a href="https://fusa.edu.au" target="_blank" class="hover:text-fvt-orange underline">FUSA</a></p>
+                <img src="./media/CoM_Logo_POS_RGB.jpg" alt="" class="w-full md:w-auto max-w-[15em] rounded-xl ">
+                <!-- <p class="text-sm text-neutral-500 mt-2 lg:text-left text-center">Photo courtesy of <a href="https://fusa.edu.au" target="_blank" class="hover:text-fvt-orange underline">FUSA</a></p> -->
             </span>
+        </section>
+
+        <!-- NVI -->
+        <section class="text-neutral-300 text-lg flex gap-6 flex-col-reverse lg:flex-row-reverse w-full lg:max-w-[60em] max-w-[40em] items-center justify-center text-justify">
+            <div>
+                <p>
+                    The Flinders New Venture Institute, the event's namesake sponsor, also provided invaluable support both to the team and the event throughout its planning and execution. The New Venture Institute has been an incredible supporter of the Flinders VEX Robotics Team since its inception, and their continued support has been instrumental in helping the team achieve its goals and reach new heights.
+                </p>
+                <br>
+                <p>
+                    NVI aims to help students and entrepreneurs develop their ideas, and empower students to think innovatively. You can learn more about their work <a href="https://www.nviflinders.com.au/" target="_blank" class="text-fvt-orange hover:text-fvt-white underline">on their website</a>.
+                </p>
+            </div>
+            <span>
+                <div class="md:w-[15em] lg:max-w-[30em] flex items-center justify-center h-auto bg-white rounded-xl max-w-[15em]"><img src="./media/NVIOfficialStackedBlue.png" class="w-[80%]" alt="" ></div>
+                <!-- <p class="text-sm text-neutral-500 mt-2 lg:text-left text-center">Photo courtesy of <a href="https://fusa.edu.au" target="_blank" class="hover:text-fvt-orange underline">FUSA</a></p> -->
+            </span>
+        </section>
+
+
+        <!-- Text center -->
+        <section class="text-neutral-300 text-lg flex gap-6 flex-col-reverse lg:flex-col w-full lg:max-w-[60em] max-w-[40em] items-center justify-center text-justify ">
+            <p class="max-w-[40em]">
+                The event was made possible by the incredible efforts of the Flinders VEX Robotics Team volunteers, who dedicated their time and passion over not just the day itself, but over the many busy weeks leading up to ensure a smooth and successful event. Their commitment to fostering a love for robotics and STEM in the community was evident throughout the day, and their hard work was greatly appreciated by all attendees.
+            </p>
+            
         </section>
 
         <!-- Center image with caption -->
         <section class="text-neutral-400 text-sm lg:text-lg flex gap-2 flex-col w-full lg:max-w-[60em] max-w-[40em] items-center justify-center text-center">
-            <img src="./media/Photowall-6.jpeg" alt="The Flinders VEX Robotics Team members smiling in-front of a Flinders and FVT pull-up banner at the NVI Open 2026 event." class="w-full lg:w-[80%] rounded-xl">
+            <img src="./media/Photowall-6.avif" alt="The Flinders VEX Robotics Team members smiling in-front of a Flinders and FVT pull-up banner at the NVI Open 2026 event." class="w-full lg:w-[80%] rounded-xl">
             <p>The incredible Flinders VEX Robotics Team volunteers who put on the event!</p>
-        </section>
-
-        <!-- Img right text left -->
-        <section class="text-neutral-300 text-lg flex gap-6 flex-col-reverse lg:flex-row-reverse w-full lg:max-w-[60em] max-w-[40em] items-center justify-center text-justify">
-            <p>
-                Cupidatat occaecat non laboris eu aute ad commodo elit nulla ullamco proident magna mollit. Amet qui ex in Lorem adipisicing incididunt. Eiusmod nisi quis esse dolor incididunt mollit et. Nulla cillum culpa aliquip consectetur ipsum nulla sit ullamco non veniam elit irure laboris.
-                <br><br>    
-                In incididunt anim dolor tempor minim enim irure quis irure enim labore. Voluptate voluptate incididunt incididunt incididunt ad cillum consectetur adipisicing labore exercitation sint et elit. Et elit aute eu cillum esse consectetur do mollit. Cillum ullamco pariatur est laborum ullamco.
-            </p>
-            <span>
-                <img src="./media/city-stall-2.jpg" alt="" class="w-full md:w-auto max-w-[30em] rounded-xl ">
-                <p class="text-sm text-neutral-500 mt-2 lg:text-left text-center">Photo courtesy of <a href="https://fusa.edu.au" target="_blank" class="hover:text-fvt-orange underline">FUSA</a></p>
-            </span>
-        </section>
-
-        <!-- Gallery scroller -->
-        <section class="splide w-full max-w-[60em]">
-            <div class="splide__track">
-                <ul class="splide__list">
-                    <li class="splide__slide">
-                        <img class="h-full object-contain border-dashed rounded-xl border-neutral-500" onerror="this.classList.add('border','p-4','items-center','flex','justify-center')" 
-                        src="./media/PeterNVIOpen - 8.png" alt="The event attendees crowding around the match field">
-                    </li>
-                </ul>
-            </div>
         </section>
 
         <!-- Contribution. If anonymous, leave as this, otherwise edit to appropriate photo and text as needed -->
@@ -148,6 +217,7 @@
             </span>
             <p>This article was written by our very own members.<br>Interested in contributing? <a href="https://www.flindersvex.com" class="hover:text-fvt-orange underline">Join today!</a></p>
         </section>
+        
         <a href="/"
                 class="select-none text-neutral-50 h-10 px-4 flex items-center bg-neutral-900 rounded-xl  hover:bg-orange-950 transition-all active:scale-95 font-semibold border border-neutral-500 hover:border-fvt-orange">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M11.03 8.53a.75.75 0 1 0-1.06-1.06l-4 4a.75.75 0 0 0 0 1.06l4 4a.75.75 0 1 0 1.06-1.06l-2.72-2.72H18a.75.75 0 0 0 0-1.5H8.31z"/></svg>
